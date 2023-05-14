@@ -1,0 +1,218 @@
+body {  
+  background-color:    #f8f8f8;/*背景颜色*/
+  font-size:           large;
+  font-style:		   normal;
+  color:			   #f5f5f5;
+  font-family:         "苹方", "Times New Roman", Times, serif;
+  line-height:         1.6em;
+}
+h2{
+	font-size:150%;
+	border-bottom:thin dotted #888888;
+}
+blockquote {
+	font-style:italic;
+}
+header{
+  width:			   auto;
+  height:			   280px;/*较好的显示图片大小*/
+  
+  line-height:         1.9em;
+  font-size:		   normal;
+  color:			   #ffffff;
+  text-align:  		   center;/*居中*/
+  
+  border-color:        white;
+  border-width:        1px;
+  padding:             25px;
+  padding-left:        80px;
+  margin:              10px 0px 10px 10px;
+  background-image:    url(images/banner.png);/*不用""*/
+  background-repeat:   no-repeat;
+  background-position: top left;
+}
+footer{
+	background-color:#6699CC;
+	color:white;
+	text-align:center;
+	margin:10px;
+}
+/*导航区*/
+nav ul {
+	list-style-type:none;/*删除无序列表项的项目符号*/
+	margin:10px 10px 0 10px; 
+	padding:5px opx;/*上下*/
+	
+}
+nav ul li{
+	display:inline;
+	padding:5px 10px;
+	background-color:#99CCFF;
+	
+}
+nav ul li a:link,nav ul li a:visited{/*导航栏*/
+	color:          black ;		
+	border-bottom:    none;
+}
+.selected{
+	background-color:#6699CC;
+	color:white;
+}
+#视频 a:link,a:visited{
+	border-bottom:thin dotted #b76666;
+	color:#996600;
+	text-align:center;	
+}
+#introduction{
+  display:table-cell;
+  vertical-align:top;/*垂直对齐*/
+  
+  line-height:         1.9em;
+  color:			   black;
+  border-color:        white;
+  border-width:        1px;
+
+  padding:             15px;
+  margin:              10px;
+  
+  background-color:    white;/*#f6f2ef;*/
+  background-image:    url(images/元素3.png); 
+  background-repeat:   no-repeat;
+  background-position: top right; 
+}
+
+#information{
+  display:table-cell;
+  vertical-align:top;/*垂直对齐*/
+  
+  background-image:    url(images/元素2.png); 
+  background-repeat:   no-repeat;
+  background-position: top right; 
+	
+  line-height:         1.9em;
+  color:			   black;
+  border-color:        white;
+  border-width:        1px;
+
+  background-color:    white;
+  padding:             15px;
+  margin:              10px;
+  
+  width:25%;
+}
+
+#value{
+  display:table-cell;
+  vertical-align:top;/*垂直对齐*/
+  
+  background-image:    url(images/元素1.png); 
+  background-repeat:   no-repeat;
+  background-position: top right; 
+  
+  line-height:         1.9em;
+  color:			   black;
+  border-color:        white;
+  border-width:        1px;
+
+  background-color:    white;
+  padding:             15px;
+  margin:		       10px;
+}
+
+#tableContainer{
+  display:table;
+  border-spacing:10px;/*不与margin重叠*/
+  
+  background-image:    url(images/背景8.jpg); 
+  
+}
+
+#mywork{
+	
+  border-spacing:10px;/*不与margin重叠*/  
+  background-image:    url(images/背景9.jpg);
+  background-repeat:x-repreat;
+  /*凝胶布局*/
+  width:1330px;
+  margin-left:auto;
+  margin-right:auto;
+  
+}
+
+#易拉宝{
+    float:left;
+	color:			   black;
+	border-color:black;
+	border-style:solid;
+	margin-left:10px;
+	margin-right:10px;
+	padding:15px;
+}
+#展板{
+    color:black;	
+	margin-left:385px;
+	padding:15px;
+	padding-bottom:5px;
+	padding-top:0px;
+	margin-right:460px;
+	border-color:black;
+	border-style:solid;
+}
+#海报{
+    color:black;	
+	margin-left:385px;
+	margin-right:460px;
+	margin-top:5px;
+	padding:15px;
+	padding-bottom:5px;
+	padding-top:0px;
+	border-color:black;
+	border-style:solid;
+}
+#排版{
+    float:			   right;
+	color:			   black;
+	border-color:black;
+	border-style:solid;
+	margin-right:5px;
+	padding:10px;
+}
+
+.tableRow{
+  display:table-row;
+}
+
+.标题{
+  text-align:  		   center;/*居中*/
+}
+a:link{/*修改超链接样式*/
+  color:            #b76666;
+  text-decoration:  none;
+  /*border-bottom:    thin dotted #b76666;*/
+}
+#图标导航1{
+	position:absolute;
+	right:28px;
+	top:450px;
+}
+#图标导航2{
+	position:absolute;
+	right:10px;
+	top:350px;
+}
+#设计{
+	color:#333333;
+	background-color:#FFCCCC;
+	margin:10px;
+	padding:15px;
+	text-align:center;
+}
+#书{
+	float:left;
+}
+#女孩{
+	float:right;
+}
+#强调{
+	color:#996600;
+}
